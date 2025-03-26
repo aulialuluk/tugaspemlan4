@@ -3,8 +3,8 @@ public class Akun {
     private String nama;
     private String noPelanggan;
     private String pin;
-    private boolean Block = false; // Menandai apakah akun diblokir
-    private int salahPin = 0; // Counter untuk kesalahan PIN
+    private boolean Block = false; 
+    private int salahPin = 0;
 
     public Akun(double saldo, String nama, String noPelanggan, String pin) {
         this.saldo = saldo;
